@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  background-color: rgb(23, 23, 23);
+  }
+
+
+.container{
+  margin: 1vh 21%;
+  width: 50%;
+  /* height: 60%; */
+  display: grid;
+  grid-template: repeat(5, 20%) / 5% repeat(3,30%) auto 5%;
+}
+
+
+.topbit{
+  text-align: left;
+  font-size: min(100px,15vw);
+  overflow-x: hidden;
+  padding: 4% 0px 0px 0px;
+  background-color: black;
+  color: gray;
+  grid-column: 2 / 5;
+}
+
+.arrow{
+  grid-row: 1 / 6;
+  border: 0px;
+  color: white;
+  font-size: 50px;
+  font-weight: 30px;
+}
+
+#right{
+  grid-column: 6 / 7;
+}
+
+.box {
+  background-color: rgb(181, 89, 2);
+  font-size: min(145px,20vw);
+  text-align: center;
+  }
+
+button {
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: rgba(181, 89, 2,0.5);
+  
+}
+
+
+.space {
+  font-size: min(130px,18vw);
+}
+
+  
